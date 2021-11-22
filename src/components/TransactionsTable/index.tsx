@@ -3,7 +3,6 @@ import { api } from "../../services/api";
 import { Container } from "./styles";
 
 export function TransactionsTable(){
-
   
   useEffect(() => {
     api.get('transactions')
